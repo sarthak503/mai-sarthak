@@ -1,0 +1,315 @@
+.buttn{
+    margin: 3%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: none;
+    margin-top: 5%;
+}
+.onhover{
+    visibility: hidden;
+}
+.onhover :hover{
+    visibility: visible;
+} 
+
+
+.box {
+    margin: 40px 50px 0 50px;
+  }
+
+  
+  
+  /* .team-card {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .blur {
+    filter: blur(2px);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .team-card-svg-animal {
+    position: absolute;
+    top: -83px;
+  }
+  
+  .card-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .image-main {
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  
+  .team-card-hr {
+    border: 1px solid #ffffff;
+    margin: 15px auto 0 auto;
+    opacity: 0;
+    width: 0%;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .team-card-body {
+    background-color: #000;
+    background-image: url("https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png");
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px 0 0 0;
+    color: #ffffff;
+    transition: all 1s ease-in-out;
+    text-align: center;
+  }
+  
+  .team-card-body .name {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 18px;
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+  }
+  
+  .team-card-body .title {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 1s ease-in-out;
+  }
+  
+  .team-card-body .text {
+    color: #ffffff;
+    padding: 0 2em;
+    text-align: justify;
+    margin-top: 1em;
+    margin-bottom: 20%;
+    line-height: 16px;
+    font-size: 10px;
+  }
+  
+  .link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+  }
+  
+  .link-container .link-button {
+    padding: 5px 10px 5px 10px;
+    width: 50px;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    background-color: #000;
+    color: #fff;
+    background-image: url("https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png");
+    transition: all 0.5s ease-in-out;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team-card-body .link-button:hover {
+    padding: 5px 30px 5px 30px;
+    color: #ffffff;
+    background-color: #00ffdd;
+    font-size: 20px;
+    border-radius: 0;
+  }
+  
+  .team-card:hover {
+    top: -15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  
+  .team-card:hover .blur {
+    opacity: 1;
+  }
+  
+  .team-card:hover .team-card-body {
+    top: 0;
+    transition-delay: 0.5s;
+  }
+  
+  .team-card:hover .team-card-body .name {
+    transform: translateY(20px);
+    transition-delay: 1s;
+    font-size: 20px;
+    line-height: 24px;
+    color: #00ffdd;
+  }
+  
+  .team-card:hover .team-card-body .title {
+    transform: translateY(-20px);
+    transition-delay: 1s;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+  }
+  
+  .team-card:hover .team-card-body .team-card-hr {
+    opacity: 1;
+    width: 90%;
+    transition-delay: 1.5s;
+  }
+   */
+  *{
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .buttn{
+    background-color: white
+  }
+   .buttn:hover{
+    border: 2px solid orange;
+    background-color:yellow;
+    font-weight: bold;
+   }
+   .buttn > a{
+    text-decoration: none;
+    color: rgb(255, 119, 0) ;
+   }
+
+   .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .head{
+        color:rgb(49, 49, 84);
+        margin: 20px;
+        margin-top: 100px;
+    }
+    .colorIt:hover{
+        border-top: 2px solid red;
+        border-left: 2px solid rgb(110, 37, 255);
+        border-bottom: 2px solid rgb(174, 221, 64);
+        border-right: 2px solid rgb(205, 50, 169);
+        transition: border 1s;
+      }
+    /* .disPla{
+        visibility: hidden;
+    }
+    .ima:hover{
+        visibility: hidden;
+    } */
+    
+    .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        border: 1px solid #f1f1f1;
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      }
+      
+      /* This container is needed to position the front and back side */
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+      /* Do an horizontal flip when you move the mouse over the flip box container */
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+      
+      /* Position the front and back side */
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+      
+      /* Style the front side (fallback if image is missing) */
+      .flip-card-front {
+        background-color: rgb(253, 253, 253);
+        color: black;
+      }
+      
+      /* Style the back side */
+      .flip-card-back {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: rgb(255, 255, 90);
+        color: rgb(0, 0, 0);
+        transform: rotateY(180deg);
+      }
+/* .cards{
+  animation: 1.2s linear animati;
+}
+@keyframes animati {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+} */
+.hr{
+  text-align: center;
+  align-content: center;
+  width: 150px;
+  margin-left: 45%;
+  border-top: 5px solid red;
+}
+.cardImage{
+  width: 200px;
+  height:200px;
+  padding:10px;
+}
+@media only screen and (max-width: 600px) {
+  .cardImage{
+    width: 150px;
+    height:150px;
+  }
+  .flip-card {
+    width: 250px;
+    height:250px;
+  }
+  .hr{
+    width: 120px;
+    margin-left: 30%;
+    border-top: 3px solid red;
+  }
+}

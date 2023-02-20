@@ -1,0 +1,38 @@
+.contact{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem;
+}
+.btn {
+    text-decoration: none;
+    color: aliceblue;
+}
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  
+  a.youtube {
+    color: #eb3223;
+  }
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram, .github,.medium{
+    color: whitesmoke;
+  }
+  a.linkedin{
+    color:#0A64C2
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    .contact{
+      font-size: 1rem;
+    }
+  }
